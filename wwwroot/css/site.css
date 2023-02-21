@@ -1,0 +1,31 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  padding:5px;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.row {
+    padding-bottom: 5px;
+}
+
+#sendButton {
+    border-radius: 5px;
+    border: solid 1px #C0C0C0;
+}
+
+    #sendButton:hover {
+        background-color: #387fc0;
+    }
